@@ -1,0 +1,14 @@
+{% include 'header.html' %}
+
+
+<ul>
+{% for pokemon in pokemon_html %}
+    <li>
+        {% include 'pokemon.html' %}
+    </li>
+{% endfor %}
+</ul>
+
+
+
+{% include 'footer.html' %}
